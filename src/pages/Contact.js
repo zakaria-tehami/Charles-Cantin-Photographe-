@@ -9,7 +9,7 @@ function Contact() {
             style={{backgroundImage: `url(${BannerImage})`}}></div>
             <div className='rightSide'>
                 <h1>Contactez Moi</h1>
-                <form id='contact-form' name='contact' action='/contact' method='POST'>
+                <form id='contact-form' name='contact' action='/contact' method='POST' >
                     <input type='hidden' name='form-name' value='contact'/>
                     <label htmlFor='name'>Nom Complet</label>
                     <input type="text" name='name' placeholder='Votre Nom Complet...'required/>
