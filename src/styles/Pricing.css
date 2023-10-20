@@ -1,0 +1,49 @@
+.pricingItem {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.pricingItem img {
+    height: 400px;
+    object-fit: cover;
+    width: 400px;
+}
+
+.PricingTile{
+    font-size: 40px;
+    color: #47555e;
+}
+
+.pricingItem h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pricingItem p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+.pricingItem:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-weight: bold;
+    color: #52809c;
+}
